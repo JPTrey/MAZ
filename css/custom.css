@@ -1,0 +1,105 @@
+body {
+  /*padding-top: 120px;*/
+  background-color: #CCA512;
+}
+
+a {
+  color: #ddd;
+}
+
+h4 {
+  font-family: comic;
+}
+
+li {
+  font-size: 30px;
+}
+
+footer.well {
+  margin-top: 50px;
+  background-color: #A19153;
+}
+
+.navbar > li > a {
+  /*font-size: arial;*/
+}
+
+.navbar-toggle {
+  margin: 15px 40px 0 0;
+  background-color: #A43232;
+}
+
+.brand {
+  padding-left: 100px;
+}
+
+#brand-lg {
+  font-family: Copperplate;
+  font-size: 50px;
+  color: #9A1C1C;
+}
+
+#brand-mine, #brand-mine > small {
+  margin: -20px 0 0 0;
+  font-family: Copperplate;
+  font-size: 30px;
+  color: #9A1C1C;
+}
+
+#brand-sm {
+  font-family: Copperplate;
+  font-size: 25px;
+  padding-top: 20px;
+  color: #9A1C1C;
+  margin: 0 0 15px 15px;
+}
+
+#brand-lg > small {
+  font-size:25px;
+  color: #A43232;
+}
+
+.navbar {
+  background-color: #e0c970;
+}
+
+.navbar-brand:hover {
+  /*color: #ddd;*/
+}
+
+.img {
+  width: 100%;
+}
+
+.carousel-control {
+  font-size: 40px;
+  width: 3%;
+  margin-top: 65px;
+  color: black;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+
+.carousel-control.left {
+  margin-left: 15px;
+}
+
+.carousel-control.right {
+  margin-right: 15px;
+}
+
+.carousel-control:hover,
+.carousel-control:focus {
+  margin-top: 70px;
+}
+
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #2C2816;
+  -webkit-box-shadow: 3px 3px 5px 6px #2C2816;
+  box-shadow:         3px 3px 5px 6px #2C2816;
+}
+
+#page-nav {
+  width: 100%;
+}
