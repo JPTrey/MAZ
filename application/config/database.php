@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'forge';
-$db['default']['password'] = 'forge';
-$db['default']['database'] = getenv('db_pass');
+$db['default']['hostname'] = getenv('db_host');
+$db['default']['username'] = getenv('db_user');
+$db['default']['password'] = getenv('db_pass');
+$db['default']['database'] = 'db_azcomics';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
